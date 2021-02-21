@@ -1,0 +1,32 @@
+.btns {
+  display: flex;
+  margin-top: -60px;
+  margin-left: 50px;
+}
+
+.btn {
+  background-color: #0a522f;
+  color: #c29862;
+  display: flex;
+  width: 170px;
+  height: 60px;
+  border-right: 1px solid #c29862;
+  z-index: 2;
+  transition: ease-in-out 300ms;
+}
+.icon {
+  height: 28px;
+  width: 28px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.btn > h4 {
+  font-weight: 400;
+}
+
+.btn:hover {
+  background-color: #c29862;
+  color: #0a522f;
+}
