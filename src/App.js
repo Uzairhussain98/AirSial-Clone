@@ -1,4 +1,6 @@
 import './App.css';
+import Boxes from './components/Boxes';
+import Covid from './components/Covid';
 import Form from './components/Form';
 import FormBtns from './components/FormBtns';
 import Navbar from './components/Navbar';
@@ -11,6 +13,9 @@ function App() {
       <Slider/>
       <FormBtns/>
       <Form/>
+      <Boxes/>
+      <Covid/>
+      <h1>jelp</h1>
       
     </div>
   );
