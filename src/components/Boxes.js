@@ -41,8 +41,8 @@ const Boxes = () => {
             <div className="small__box">
                 <h3>Baggage</h3>
                 <h5>Safe And Secure Baggage Trasportation</h5>
-                <h3></h3>
-                <h3></h3>
+                {/* <h3></h3>
+                <h3></h3> */}
 
                 <img className="img2" style={{marginTop: "15px" }} src={Baggage} alt=""/>
 

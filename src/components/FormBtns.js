@@ -1,4 +1,4 @@
-import React , {useState} from 'react'
+import React from 'react'
 import './Formbtns.css'
 import plane from './assets/plane.png'
 import book from './assets/bookings.png'
@@ -15,17 +15,17 @@ const FormBtns = () => {
 
 
         <div className="btn">
-        <img className="icon" src={plane}></img>
+        <img className="icon" src={plane} alt=""></img>
         <h4>Book Flight</h4>
         </div>
 
         <div className="btn"  >
-        <img className="icon" src={book}></img>
+        <img className="icon" src={book} alt=""></img>
         <h4>Bookings</h4>
         </div>
 
 <div className="btn">
-<img className="icon" src={clock}></img>
+<img className="icon" src={clock} alt=""></img>
 <h4>Schedule</h4>
 </div>
 

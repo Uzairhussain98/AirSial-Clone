@@ -1,8 +1,9 @@
 import './App.css';
-import Banner from './components/Banner';
 import Boxes from './components/Boxes';
 import Covid from './components/Covid';
 import Destinations from './components/Destinations';
+import Footer from './components/Footer';
+import FooterBottom from './components/FooterBottom';
 import Form from './components/Form';
 import FormBtns from './components/FormBtns';
 import Navbar from './components/Navbar';
@@ -17,8 +18,9 @@ function App() {
       <Form/>
       <Boxes/>
       <Covid/>
-      {/* <Banner/> */}
       <Destinations/>
+      <Footer/>
+      <FooterBottom/>
       
     </div>
   );
